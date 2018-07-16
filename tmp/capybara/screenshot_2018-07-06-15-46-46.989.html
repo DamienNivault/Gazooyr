@@ -1,0 +1,73 @@
+<!DOCTYPE html><html><head>
+    <title>Gazooyr</title>
+    
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-86b60e23c444abd44088778bd940e44c07dae5f67f530a47ab1e20b6a6ef5897.css" data-turbolinks-track="reload">
+    <script src="/assets/application-c5cf09482e0a496b6cad19e0f2a07d6914cbb559a246985aac696b8b7c097608.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <p class="notice"></p>
+    <p class="alert"></p>
+    Tendances
+    Le twitter qu'il est vachement plus mieux
+    You're on Gazooyr !
+    Les derniers gazooies
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+  <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+          </ul>
+        </li>
+      </ul>
+  </div></nav>
+
+    <h2>Sign up</h2>
+
+<form class="new_user" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓">
+      <div id="error_explanation">
+      <h2>1 error prohibited this user from being saved:</h2>
+      <ul><li>Password confirmation doesn't match Password</li></ul>
+    </div>
+
+
+  <div class="field">
+    <label for="user_email">Email</label><br>
+    <input autofocus="autofocus" autocomplete="email" type="email" value="test123@example.fr" name="user[email]" id="user_email">
+    <p><label for="user_username">Username</label><br>
+    <input type="text" value="test123" name="user[username]" id="user_username"></p>
+  </div>
+
+  <div class="field">
+    <label for="user_password">Password</label>
+    <em>(6 characters minimum)</em>
+    <br>
+    <input autocomplete="off" type="password" name="user[password]" id="user_password">
+  </div>
+
+  <div class="field">
+    <div class="field_with_errors"><label for="user_password_confirmation">Password confirmation</label></div><br>
+    <div class="field_with_errors"><input autocomplete="off" type="password" name="user[password_confirmation]" id="user_password_confirmation"></div>
+  </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="S'enregistrer" data-disable-with="S'enregistrer">
+  </div>
+</form>
+  <a href="/users/sign_in">Log in</a><br>
+
+
+
+
+
+
+
+  
+
+</body></html>

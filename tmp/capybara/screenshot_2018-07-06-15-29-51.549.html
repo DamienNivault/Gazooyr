@@ -1,0 +1,67 @@
+<!DOCTYPE html><html><head>
+    <title>Gazooyr</title>
+    
+    
+
+    <link rel="stylesheet" media="all" href="/assets/application-f5bb2140d23de33fa17fd733437c5a898fffbecd2790ea13d3ae4bd2e9c2d62a.css" data-turbolinks-track="reload">
+    <script src="/assets/application-c5cf09482e0a496b6cad19e0f2a07d6914cbb559a246985aac696b8b7c097608.js" data-turbolinks-track="reload"></script>
+  </head>
+
+  <body>
+    <p class="notice"></p>
+    <p class="alert">You need to sign in or sign up before continuing.</p>
+    Tendances
+    Le twitter qu'il est vachement plus mieux
+    You're on Gazooyr !
+    Les derniers gazooies
+    <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Tendances</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <span id="logout"></span>
+    </div>
+  </div>
+  <a class="navbar-brand" href="#">Gazooyr</a>
+  </nav>
+
+    <h2>Log in</h2>
+
+<form class="new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓">
+  <div class="field">
+
+   <p><label for="user_username">Username</label><br>
+   <input type="text" name="user[username]" id="user_username"></p>
+  </div>
+ 
+  <div class="field">
+    <label for="user_password">Password</label><br>
+    <input autocomplete="off" type="password" name="user[password]" id="user_password">
+  </div>
+
+    <div class="field">
+      <input name="user[remember_me]" type="hidden" value="0"><input type="checkbox" value="1" name="user[remember_me]" id="user_remember_me">
+      <label for="user_remember_me">Remember me</label>
+    </div>
+
+  <div class="actions">
+    <input type="submit" name="commit" value="Sign in" data-disable-with="Sign in">
+  </div>
+</form>
+
+  <a href="/users/sign_up">Sign up</a><br>
+
+  <a href="/users/password/new">Forgot your password?</a><br>
+
+
+
+
+
+  
+
+</body></html>
